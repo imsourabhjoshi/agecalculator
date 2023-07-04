@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #10002b;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    
+}
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #3c096c;
+    border-radius: 25px;
+}
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.base h4 {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Crimson Text', serif;;
+    font-weight: bold;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    background: #240046;
+    font-size: 34px;
+    color: #ffffff;
+    border: 2px solid #240044;
+    border-radius: 20px 20px 0 0;
+}
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Crimson Text', serif;;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: #fff;
+}
+input[type="text"] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: none;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    color: #3c096c;
+    font-size: 17px;
+}
+input[type="text"]:focus {
+    background-color: #ffffff;
+    border: 2px solid #10002b;
+    outline: none;
+    border-radius: 4px;
+}
+input[type="button"] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: 2px solid #10002b;
+    border-radius: 4px;
+    background-color: #10002b;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+input[type="button"]:hover {
+    background-color: #3c096c;
+    font-size: 18px;
+}
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: 'Crimson Text', serif;;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.container{
+    border: 2px solid #240046;
+    border-radius: 20px;
+}
+
+
+  .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+  }
+
+  .footer-copyright{
+    color: #fff;
+  }
+
+ 
